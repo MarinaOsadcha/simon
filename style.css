@@ -1,0 +1,125 @@
+﻿html,body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background:rgb(65,65,65);
+	color:rgb(240, 240, 240);
+	font-family:arial;
+}
+div {
+	box-sizing: border-box;
+}
+.layout {
+	position:relative;
+	width:100%;
+	margin:auto;
+	min-height:100%;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+.container {
+	position:relative;
+	margin:auto;
+	width:320px;
+	height:320px;
+	border-radius: 320px;
+	background:rgb(65, 65, 65);
+}
+.menu {
+	position:relative;
+	margin:auto;
+	margin-bottom:20px;
+	width:320px;
+	height:60px;
+	padding:0;
+	padding-top:40px;
+	text-align: left;
+	text-transform:uppercase;
+	font-size:11px;
+}
+.button {
+	position:relative;
+	display:inline-block;
+	width:157.5px;
+	height:157.5px;
+	border: 5px solid rgb(65, 65, 65);
+	cursor:pointer;
+}
+.green {
+	border-radius: 160px 0 0 0;
+	margin-right:5px;
+	background:rgb(55, 179, 11);
+}
+.red {
+	border-radius:0 160px 0 0;
+	background:rgb(240, 43, 29);
+}
+.yellow {
+	margin-top:1px;
+	margin-right:5px;
+	border-radius: 0 0 0 160px;
+	background:rgb(224, 255, 2);
+}
+.blue {
+	margin-top:1px;
+	border-radius: 0 0 160px 0;
+	background:rgb(53, 62, 222);
+}
+.controller {
+	position:absolute;
+	top:95px;
+	left:95px;
+	height:130px;
+	width:130px;
+	padding-top:25px;
+	background:rgb(65,65,65);
+	border:10px solid rgb(65, 65, 65);
+	border-radius:150px;
+	text-align: center;
+	font-family:arial;
+	font-size:20px;
+	color: rgb(240, 240, 240);
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+#start,#restart,#strict {
+	cursor:pointer;
+	width:50px;
+}
+#restart,#strict {
+	margin-left:14px;
+	width:60px;
+}
+#start:hover,#restart:hover,#strict:hover {
+	font-weight:bold;
+	font-size:12px;
+}
+.aCount {
+	padding-left:25px;
+}
+.menu span{
+	display:inline-block;
+	width:20px;
+	padding-top:1px;
+}
+button {
+	background:none;
+	outline:none;
+	border:none;
+	font-size:11px;
+	text-transform:uppercase;
+	vertical-align:top;
+	color:rgb(240,240,240);
+	transition:0.2s;
+}
+footer {
+	position:absolute;
+	bottom:5px;
+	height:30px;
+	width:100%;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:11px;
+}
